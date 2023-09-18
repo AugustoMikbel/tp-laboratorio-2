@@ -11,3 +11,36 @@ body {
   background-color: rgb(240, 240, 240);
 }
 
+.header-page{
+  background-color: aqua !important;
+}
+
+.header-page img{
+  width: 15%;
+  height: 10%;
+}
+header{
+  background-color: black;
+}
+header ul li {
+  text-align: right;
+  font-size: small;
+  margin-bottom: 30px;
+}
+
+
+a{
+  color: white;
+  border: 1px solid white;
+  text-align: center;
+  border-radius:35% ;
+  margin-right: 2%;
+  margin-bottom: 50%;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.Contactoop{
+  padding-bottom: 2%;
+}

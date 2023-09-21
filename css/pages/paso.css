@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 240, 240);
+}
+
+.header-page {
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: aqua !important;
+}
+
+.header-page img {
+    width: 15%;
+    height: 10%;
+}
+
+header {
+    background-color: black;
+}
+
+
+.navbar > ul {
+    display: flex ;
+    color: white;
+    padding-bottom: 1%;
+
+}
+
+.navbar > ul >  li {
+    padding-left: 4%;
+    list-style: none;
+
+}
+
+.navbar > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.init > li > a {
+    margin-left: 650px;
+    font-size: small;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    border-radius: 10%;
+    color: black !important;
+    text-decoration: none;
+    background-color: white;
+}
+.init{
+    list-style: none;
+}
+
+
+
+.active {
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 35%;
+    margin-right: 5%;
+    padding-top: 8%;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 8%;
+}
+
+
+.submenu > li > a{
+    color: white;
+    display: none;
+
+}
+.submenu > li{
+    list-style: none;
+}
+
+
+/*fin nav*/
+/*contenido pagina*/
+#sec-contenido{
+    display: flex;
+    color:white ;
+}
+#sec-contenido > a{
+    margin-left: 4%;
+    color:white;
+}
+.votantes{
+    display: flex;
+    margin-left: 50%;
+}
+
+
+
+

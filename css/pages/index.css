@@ -1,0 +1,75 @@
+#sec-titulo {
+    display: flex;
+}
+
+.textoini h2 {
+    font-size: 30px;
+}
+
+.textoini {
+    width: 40%;
+    height: 50%;
+    padding-left: 4%;
+    padding-right: 10%;
+    font-size: 15px;
+}
+
+#sec-titulo img {
+    width: 25%;
+    height: 50%;
+    padding-left: 10%;
+}
+
+.contentini {
+    background-color: rgb(170, 170, 165);
+}
+
+.contentini h1,
+p {
+    padding-left: 4%;
+
+}
+
+#sec-contenido {
+    display: flex;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 2%;
+    color: white;
+    font-size: 40px;
+}
+
+.paso a {
+    padding-top: 6%;
+}
+
+
+.Generales a {
+    padding-top: 6%;
+}
+
+
+.paso a :visited {
+    padding-top: 6%;
+}
+
+
+.Generales a:visited {
+    padding-top: 6%;
+}
+
+.paso {
+    width: 50%;
+    background-color: pink;
+    display: flex !important;
+    margin-right: 1%;
+    border-radius: 10%;
+}
+
+.Generales {
+    width: 50%;
+    background-color: blue;
+    display: flex !important;
+    margin-left: 1%;
+    border-radius: 10%;
+}
